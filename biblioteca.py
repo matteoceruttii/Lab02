@@ -12,6 +12,7 @@ def carica_da_file(file_path):
             dizionario = dict()
             campi = riga.rstrip('\n').split(',')
             # popolo il dizionario
+            #   divisione chiave - valore
             dizionario['titolo'] = campi[0]
             dizionario['autori'] = campi[1]
             dizionario['anno di pubblicazione'] = campi[2]
